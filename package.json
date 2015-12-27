@@ -1,0 +1,29 @@
+{
+  "name": "grapheme-utils",
+  "version": "0.1.0",
+  "description": "A collection of grapheme utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lokiedu/grapheme-utils.git"
+  },
+  "keywords": [
+    "grapheme",
+    "string",
+    "utils",
+    "unicode"
+  ],
+  "author": "Dmitry Vdovin <voidxnull@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lokiedu/grapheme-utils/issues"
+  },
+  "homepage": "https://github.com/Lokiedu/grapheme-utils#readme",
+  "dependencies": {
+    "grapheme-breaker": "^0.3.2",
+    "object-assign": "^4.0.1"
+  }
+}
