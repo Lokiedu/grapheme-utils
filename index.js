@@ -27,6 +27,10 @@ function truncate(str, options) {
 
   var length = options.length - options.omission.length;
 
+  if (length < 0) {
+    length = 0;
+  }
+
   return slice(str, 0, length) + options.omission;
 }
 
